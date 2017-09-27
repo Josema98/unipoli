@@ -1,0 +1,137 @@
+<! DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="mi pagina web">
+        <title>
+        VIÑEDO
+        </title>
+        <style>
+            body{
+              background-image: url(v2.jpg);
+              background-size: 100%;
+            }
+            
+            *{
+	           padding: 0px;
+	           margin: 0px;
+            }
+            
+
+            #header{
+                margin:auto;
+                width:700px;
+                font-family: monospace;
+                   
+            }
+            ul, ol{
+                list-style:none;
+                
+            }
+            .nav{
+	           width: 590px;
+	           margin: auto;
+            }
+
+            .nav li a{
+                background: beige;
+                color:black;
+                text-decoration: none;
+                padding:15px 100px;
+                display:block;
+                 width: 70%;
+            }
+
+            .nav li a:hover{
+                background-color:beige;
+            
+            }
+
+            .nav li ul{
+                display:none;
+                position:absolute;
+                min-width:100px;
+                
+            }
+
+            .nav > li{
+                float:left;
+                 width: 30%;
+            }
+
+            .nav li:hover > ul{
+                display:block;
+                width: auto;
+            }
+            h1{
+                font-family: monospace;
+                color: black;
+                font-size: 20;
+            }
+            img{
+                width: 300px;
+                height: 300px;
+                
+            }
+            .img1{
+                width: 50px;
+                
+            }
+            .img2{
+                width: 40px;
+               
+            }
+            
+            .img3{
+                 width: 400px;
+                height: 500px;
+               float: right;
+            }
+           
+            
+            p{
+                 font-family:fantasy;
+                color: black;
+                font-size: 50;
+                text-align: center;
+            }
+            
+            footer{
+                box-shadow: 50px 50px 40px;
+                border: 2px black solid;
+                position: absolute;
+                bottom: 0px;
+                left: 330px;
+                background-color: firebrick;
+                padding: 20px 20px
+                color: black;
+            }
+    
+        </style>
+        </head>
+            <body>
+            <div >
+	           <ul class="nav">
+		          <li><a href=""><h1>INICIO</h1></a></li>
+
+		          <li><a href=""><h1>VINOS</h1></a>
+			         <ul>
+				        <li><a href=""><h1>VINO 1 <img class="img1" src="v1.jpg"> </h1></a></li>
+                          
+				        <li><a href=""><h1>VINO 2 <img class="img2" src="v3.jpg"> </h1></a></li>
+					      
+				        <li><a href=""><h1>VINO 3 <img class="img1" src="v4.jpg"> </h1></a></li>
+                            
+			         </ul>
+		          </li>
+
+		          <li><a href=""><h1>CONTACTO</h1></a></li>
+                   <p><a>BIEVENIDOS</a></p>
+	           </ul>  
+                <img src="logo1.jpg.png">
+                <img class="img3" src="vino.png">
+            </div>
+                <footer><p>EL VINO QUE REVOLUCIONARA TU PALADAR</p></footer>
+        </body>
+    
+</html>
